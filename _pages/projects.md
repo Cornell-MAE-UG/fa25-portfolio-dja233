@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: David Almeida - Portfolio
 permalink: /projects/
 ---
 
