@@ -25,13 +25,13 @@ As indicated in the picture below, the tip of the body of the drive was chosen t
 ![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="width:50%"}
 Below is an image showing the location of the strain gauge:
 
-![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="width:70%"}
+![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="height:70%"}
 
 Normal Strain Contours:
-![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="width:80%"}
+![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="height:100px"}
 
 Maximum Principal Stress Contours:
-![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="width:100%"}
+![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="height:200px"}
 
 Summary of numerical results of FEM:
 Max, Normal : 52,714 psi
