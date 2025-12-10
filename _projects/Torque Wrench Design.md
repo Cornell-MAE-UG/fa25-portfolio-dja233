@@ -17,7 +17,7 @@ y = 130 - 157 E3 psi
 Fatigue strength at 10E7 cycles = 69.2 - 86.8 E3 psi
 KIC = 80.1 - 83.7 E3 psiin1/2 
 
-![Shaded rendering of earlier version]({{"assets/images/Screenshot-Granta_software.png" | relative_url }}){:.inline-image-r style="width:200px"]
+![Shaded rendering of earlier version]({{"assets/images/Screenshot-Granta_software.png" | relative_url }}){:.inline-image-r style="width:100px"]
 Above shows how this alloy of Titanium compares to other alloys of Titanium as well as alloys of Steel and Aluminum.
 
 Loads and Boundary Conditions, and strain gauge location: 
