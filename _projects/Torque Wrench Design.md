@@ -22,16 +22,16 @@ Above shows how this alloy of Titanium compares to other alloys of Titanium as w
 
 Loads and Boundary Conditions, and strain gauge location: 
 As indicated in the picture below, the tip of the body of the drive was chosen to be the stationary anchor in Ansys. The face of the tip of the handle was chosen to be where the force is applied and thus the maximum deflection. 
-![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="width:500px"}
+![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="width:750px"}
 Below is an image showing the location of the strain gauge:
 
-![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="width:550px"}
+![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="width:850px"}
 
 Normal Strain Contours:
-![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="width:600px"}
+![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="width:950px"}
 
 Maximum Principal Stress Contours:
-![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="width:650px"}
+![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="width:1050px"}
 
 Summary of numerical results of FEM:
 Max, Normal : 52,714 psi
