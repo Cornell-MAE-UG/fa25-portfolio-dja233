@@ -17,12 +17,12 @@ y = 130 - 157 E3 psi
 Fatigue strength at 10E7 cycles = 69.2 - 86.8 E3 psi
 KIC = 80.1 - 83.7 E3 psiin1/2 
 
-![Shaded rendering of earlier version]({{"assets/images/Screenshot-Granta_software.png" | relative_url }}){:.inline-image-r style="height: 500px"}
+![Shaded rendering of earlier version]({{"assets/images/Screenshot-Granta_software.png" | relative_url }}){:.inline-image-r style="height: 300px"}
 Above shows how this alloy of Titanium compares to other alloys of Titanium as well as alloys of Steel and Aluminum.
 
 Loads and Boundary Conditions, and strain gauge location: 
 As indicated in the picture below, the tip of the body of the drive was chosen to be the stationary anchor in Ansys. The face of the tip of the handle was chosen to be where the force is applied and thus the maximum deflection. 
-![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="height: 400px"}
+![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="height: 300px"}
 
 Below is an image showing the location of the strain gauge:
 ![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="height:300px"}
@@ -31,7 +31,7 @@ Normal Strain Contours:
 ![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="height:300px"}
 
 Maximum Principal Stress Contours:
-![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="height:200px"}
+![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="height:300px"}
 
 
 Summary of numerical results of FEM:
