@@ -20,7 +20,7 @@ theme: jekyll-theme-minimal
 color_scheme: light # light/default, dark, or aqua
 
 sass:
-  style: compressed
+  style: expanded
 
 # Outputting
 permalink: /:categories/:title/
