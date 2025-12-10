@@ -17,12 +17,12 @@ y = 130 - 157 E3 psi
 Fatigue strength at 10E7 cycles = 69.2 - 86.8 E3 psi
 KIC = 80.1 - 83.7 E3 psiin1/2 
 
-/assets/images/Screenshot-Granta_software.png
+{{"assets/images/Screenshot-Granta_software.png" | relative_url }}
 Above shows how this alloy of Titanium compares to other alloys of Titanium as well as alloys of Steel and Aluminum.
 
 Loads and Boundary Conditions, and strain gauge location: 
 As indicated in the picture below, the tip of the body of the drive was chosen to be the stationary anchor in Ansys. The face of the tip of the handle was chosen to be where the force is applied and thus the maximum deflection. 
-/assets/images/boundary-conditions-diagram.jpg
+{{"assets/images/boundary-conditions-diagram.jpg"|relative_url}}
 Below is an image showing the location of the strain gauge:
 /assets/images/strain-gauge-location-on-torque-wrench.png
 
