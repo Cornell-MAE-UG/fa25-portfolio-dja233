@@ -6,7 +6,7 @@ technologies: [Autodesk Fusion, Ansys, Matlab]
 image: /assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png
 ---
 
-The torque design on CAD is shown below in the first image
+The torque wrench design on CAD is shown in the first image
 
 Material selected for torque wrench: 
 Titanium, beta alloy, Ti-12Mo-6Zr-2Fe
