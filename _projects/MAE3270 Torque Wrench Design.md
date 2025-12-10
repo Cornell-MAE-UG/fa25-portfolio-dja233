@@ -90,4 +90,4 @@ The material was selected for its high yield strength, favorable fatigue charact
 ## 6. Project Summary
 The goal of this project was to find a suitable material that can withstand 600in-lbf cyclic torque loading, have the dimensions shown in the CAD model, and have the following safety factors: brittle fracture = 4, crack growth = 2 for 0.04in crack, and fatigue at 10E6 cycles = 1.5. 
 
-See full report here  <a href="{{ "/assets/MAE 3270 Torque Wrench Portfolio" | relative_url }}">Report</a>.
+See full report here  <a href="{{ "/assets/MAE 3270 Torque Wrench Portfolio.pdf" | relative_url }}">Report</a>.
