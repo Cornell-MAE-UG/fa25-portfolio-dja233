@@ -12,7 +12,7 @@ image: /assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png
 The figure below shows the initial CAD model of the torque wrench.
 
 <div align="center">
-  <img src="{{ 'assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png' | relative_url }}" width="350"/>
+  <img src="{{ 'assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png' | relative_url }}" width="400"/>
   <p><em>Figure 1. CAD Model of Torque Wrench</em></p>
 </div>
 
@@ -31,7 +31,7 @@ The figure below shows the initial CAD model of the torque wrench.
 - Fracture Toughness, KIC = 80.1–83.7 × 10³ psi√in  
 
 <div align="center">
-  <img src="{{ 'assets/images/Screenshot-Granta_software.png' | relative_url }}" width="300"/>
+  <img src="{{ 'assets/images/Screenshot-Granta_software.png' | relative_url }}" width="400"/>
   <p><em>Figure 2. Titanium Alloy Comparison (from Granta)</em></p>
 </div>
 
@@ -46,13 +46,13 @@ The material was selected for its high yield strength, favorable fatigue charact
 - The **end face of the handle** was the *applied force location* where maximum deflection occurs.
 
 <div align="center">
-  <img src="{{ 'assets/images/boundary-conditions-diagram.jpg' | relative_url }}" width="320"/>
+  <img src="{{ 'assets/images/boundary-conditions-diagram.jpg' | relative_url }}" width="400"/>
   <p><em>Figure 3. Loads and Boundary Conditions</em></p>
 </div>
 
 ### Strain Gauge Placement
 <div align="center">
-  <img src="{{ 'assets/images/strain-gauge-location-on-torque-wrench.png' | relative_url }}" width="320"/>
+  <img src="{{ 'assets/images/strain-gauge-location-on-torque-wrench.png' | relative_url }}" width="400"/>
   <p><em>Figure 4. Strain Gauge Location on Wrench Body</em></p>
 </div>
 
@@ -62,13 +62,13 @@ The material was selected for its high yield strength, favorable fatigue charact
 
 ### Normal Strain Contours
 <div align="center">
-  <img src="{{ 'assets/images/Normal-strain-contours.png' | relative_url }}" width="320"/>
+  <img src="{{ 'assets/images/Normal-strain-contours.png' | relative_url }}" width="400"/>
   <p><em>Figure 5. Normal Strain Contours</em></p>
 </div>
 
 ### Maximum Principal Stress Contours
 <div align="center">
-  <img src="{{ 'assets/images/principal-stress-contours.png' | relative_url }}" width="320"/>
+  <img src="{{ 'assets/images/principal-stress-contours.png' | relative_url }}" width="400"/>
   <p><em>Figure 6. Maximum Principal Stress Contours</em></p>
 </div>
 
@@ -87,6 +87,6 @@ The material was selected for its high yield strength, favorable fatigue charact
 
 ---
 
-## 6. Summary
-This project involved selecting a high-performance titanium alloy, modeling the torque wrench in Autodesk Fusion and Ansys, and analyzing stress, strain, and deflection behavior under realistic loading conditions. The chosen material and design meet the factor-of-safety and deflection requirements and allow effective strain measurement using the specified gauge.
+## 6. Project Summary
+The goal of this project was to find a suitable material that can withstand 600in-lbf cyclic torque loading, have the dimensions shown in the CAD model, and have the following safety factors: brittle fracture = 4, crack growth = 2 for 0.04in crack, and fatigue at 10E6 cycles = 1.5. 
 
