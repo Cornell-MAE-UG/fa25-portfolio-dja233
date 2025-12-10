@@ -3,7 +3,7 @@ layout: project
 title: Satellite Model
 description: Group project with Meggie Chen, Faiza Huda, Xianyi Zhou, and David Almeida. To develop a system dynamics model of a satellite
 technologies: [Matlab]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/Hubble Satellite.png
 ---
 
 

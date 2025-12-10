@@ -1,42 +1,92 @@
 ---
 layout: project
 title: Design a Torque Wrench, by David Almeida and Kate Ruelan
-description: Using given specifications, chose a material that satisfies all of the factor of safety, and performance requirements, and model on Ansys
+description: Using given specifications, chose a material that satisfies all factor-of-safety and performance requirements, and modeled the system in Ansys.
 technologies: [Autodesk Fusion, Ansys, Matlab]
 image: /assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png
 ---
 
-The torque wrench design on CAD is shown in the first image
+# Torque Wrench Design Project
 
-Material selected for torque wrench: 
-Titanium, beta alloy, Ti-12Mo-6Zr-2Fe
-E = 9.16 - 13.1 E6 psi
-poissons ratio = 0.31 - 0.35
-y = 130 - 157 E3 psi
-Fatigue strength at 10E7 cycles = 69.2 - 86.8 E3 psi
-KIC = 80.1 - 83.7 E3 psi in^0.5 
+## 1. CAD Model
+The figure below shows the initial CAD model of the torque wrench.
 
-![Shaded rendering of earlier version]({{"assets/images/Screenshot-Granta_software.png" | relative_url }}){:.inline-image-r style="width: 200px"}
-The second image shows how this alloy of Titanium compares to other alloys of Titanium as well as alloys of Steel and Aluminum.
+<div align="center">
+  <img src="{{ 'assets/images/CAD-model-of-torque-wrench-from-Fusion-360.png' | relative_url }}" width="350"/>
+  <p><em>Figure 1. CAD Model of Torque Wrench</em></p>
+</div>
 
-Loads and Boundary Conditions, and strain gauge location are on the third image. 
-As indicated in the third image, the tip of the body of the drive was chosen to be the stationary anchor in Ansys. The face of the tip of the handle was chosen to be where the force is applied and thus the maximum deflection. 
-![Shaded rendering of earlier version]({{"assets/images/boundary-conditions-diagram.jpg" | relative_url }}){:.inline-image-r style="width: 200px"}
+---
 
-The fourth image shows the location of the strain gauge.
-![Shaded rendering of earlier version]({{"assets/images/strain-gauge-location-on-torque-wrench.png" | relative_url }}){:.inline-image-r style="width:200px"}
+## 2. Material Selection: Titanium Alloy (Ti-12Mo-6Zr-2Fe)
 
-The fifth image shows the Normal Strain Contours.
-![Shaded rendering of earlier version]({{"assets/images/Normal-strain-contours.png" | relative_url }}){:.inline-image-r style="width:200px"}
+**Selected Material:**  
+**Titanium, beta alloy — Ti-12Mo-6Zr-2Fe**
 
-The sixth image shows the Maximum Principal Stress Contours.
-![Shaded rendering of earlier version]({{"assets/images/principal-stress-contours.png" | relative_url }}){:.inline-image-r style="width:200px"}
+**Material Properties:**
+- Elastic Modulus, E = 9.16–13.1 × 10⁶ psi  
+- Poisson’s Ratio = 0.31–0.35  
+- Yield Strength = 130–157 × 10³ psi  
+- Fatigue Strength at 10⁷ cycles = 69.2–86.8 × 10³ psi  
+- Fracture Toughness, KIC = 80.1–83.7 × 10³ psi√in  
 
+<div align="center">
+  <img src="{{ 'assets/images/Screenshot-Granta_software.png' | relative_url }}" width="300"/>
+  <p><em>Figure 2. Titanium Alloy Comparison (from Granta)</em></p>
+</div>
 
-Summary of numerical results of FEM:
-Maximum normal stress: 52,714 psi
-Strain at the gage: 1308.4  microstrains
-DeflectionMax: 0.48383 in 
+The material was selected for its high yield strength, favorable fatigue characteristics, and lower density compared to steel alloys.
 
-Torque Wrench Sensitivity in mV/V using strain from FEM analysis: 1.3084 mV/V
-Strain Gauge Selected: SGT-2LH/350-TY11 We chose a half bridge strain gauge design with a width of 0.158 in and a length of 0.563 in.
+---
+
+## 3. Loads, Boundary Conditions, and Strain Gauge Placement
+
+### Boundary Conditions
+- The **tip of the body of the drive** was modeled as the *stationary support*.
+- The **end face of the handle** was the *applied force location* where maximum deflection occurs.
+
+<div align="center">
+  <img src="{{ 'assets/images/boundary-conditions-diagram.jpg' | relative_url }}" width="320"/>
+  <p><em>Figure 3. Loads and Boundary Conditions</em></p>
+</div>
+
+### Strain Gauge Placement
+<div align="center">
+  <img src="{{ 'assets/images/strain-gauge-location-on-torque-wrench.png' | relative_url }}" width="320"/>
+  <p><em>Figure 4. Strain Gauge Location on Wrench Body</em></p>
+</div>
+
+---
+
+## 4. Finite Element Analysis Results
+
+### Normal Strain Contours
+<div align="center">
+  <img src="{{ 'assets/images/Normal-strain-contours.png' | relative_url }}" width="320"/>
+  <p><em>Figure 5. Normal Strain Contours</em></p>
+</div>
+
+### Maximum Principal Stress Contours
+<div align="center">
+  <img src="{{ 'assets/images/principal-stress-contours.png' | relative_url }}" width="320"/>
+  <p><em>Figure 6. Maximum Principal Stress Contours</em></p>
+</div>
+
+---
+
+## 5. Summary of FEM Numerical Results
+- **Maximum Normal Stress:** 52,714 psi  
+- **Strain at Strain Gauge:** 1308.4 microstrain  
+- **Maximum Deflection:** 0.48383 in  
+
+### Strain Gauge and Sensitivity
+- **Calculated Sensitivity:** 1.3084 mV/V  
+- **Selected Strain Gauge:** *SGT-2LH/350-TY11*  
+- **Gauge Type:** Half-bridge  
+- **Dimensions:** Width = 0.158 in, Length = 0.563 in  
+
+---
+
+## 6. Summary
+This project involved selecting a high-performance titanium alloy, modeling the torque wrench in Autodesk Fusion and Ansys, and analyzing stress, strain, and deflection behavior under realistic loading conditions. The chosen material and design meet the factor-of-safety and deflection requirements and allow effective strain measurement using the specified gauge.
+
