@@ -1,0 +1,9 @@
+---
+layout: project
+title: MAE 3780 Robot Design
+description: Class project for a Mechatronics class in which David Almeida, Kate Ruelan, and Jeffrey Ruiz build a robot with the goal of collecting colored cubes during a competition with various constraints against other Mechatronics groups.
+technologies: Arduino Uno with code, Fusion 360 CAD, and electronics.
+image: /assets/images/MAE3780RobotComp.jpg
+---
+
+My main contribution to this robotics team was the mechanical design to include making an initial schematic, sourcing the purchased parts, designing in CAD a custom part, and the modifications of the design alongside the updating code. 
